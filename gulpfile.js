@@ -14,7 +14,7 @@ gulp.task('sass', function() {
 		.pipe(gulp.dest('assets/css'))
 		.pipe(minifyCSS())
 		.pipe(rename('style.min.css'))
-		.pipe(gulp.dest('assets'))
+		.pipe(gulp.dest('assets/css'))
 });
 
 
